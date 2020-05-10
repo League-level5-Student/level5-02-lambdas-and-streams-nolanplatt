@@ -18,8 +18,13 @@ public class StreamSorter {
 		
 		//2. Use the sorted method of the stream to sort the numbers.
 		
+		s.sorted().forEach(s1 -> System.out.println(s1));
+		
 		
 		//3. Use the forEach method with a lambda to print all the elements of the sorted Stream.
 		//   They should be in ascending order.
+		
+		//s.forEach(s1 -> System.out.println(s1));
+		
 	}
 }
